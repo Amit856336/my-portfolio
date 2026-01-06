@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Amit | Elite Portfolio</title>
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo"><span><img src="image.jpg"></span></div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger">☰
+</div>
+  </nav>
+</header>
+
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>I'm <span>Amit</span></h1>
+    <h2>Web Developer • Ethical Hacker</h2>
+    <p>
+      I build secure, scalable and modern web systems  
+      with clean architecture and hacker mindset.
+    </p>
+    <div class="hero-btns">
+      <button onclick="scrollTo('projects')">View Work</button>
+      <button class="outline" onclick="scrollTo('contact')">Hire Me</button>
+    </div>
+  </div>
+</section>
+<section class="image"><img src="image.jpg"></section>
+
+<section id="about" class="section">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-desc">
+    I'm a passionate developer focused on Web Development,
+    Backend Engineering and Cyber Security.  
+    I believe security is not a feature — it's a mindset.
+  </p>
+</section>
+
+
+<section id="skills" class="section dark">
+  <h2 class="section-title">My Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">HTML5</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Flask</div>
+    <div class="skill-card">Security</div>
+    <div class="skill-card">APIs</div>
+    <div class="skill-card">Linux</div>
+  </div>
+</section>
+
+
+<section id="projects" class="section">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Secure Login System</h3>
+      <p>Password hashing, sessions, brute-force protection</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Fully responsive professional portfolio</p>
+    </div>
+
+    <div class="project-card">
+      <h3>REST API Backend</h3>
+      <p>Flask-based API with authentication</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="section dark">
+  <h2 class="section-title">Contact Me</h2>
+
+  <form class="contact-form" id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+<footer>
+  <p>© 2025 Amit | Built with knowledge & Code</p>
+</footer>
+
+<script src="toggle.js"></script>
+</body>
+</html>
